@@ -1,0 +1,18 @@
+
+import Tarjeta;
+
+
+public class TestTarjeta {
+      
+      public static void main(String args[]){
+      
+      Tarjeta t=new Tarjeta();
+      t.setnumeroTarjeta(122434);
+      t.setnombreCliente("");
+      
+      System.out.println(t.getnombreCliente());
+      System.out.println(t.getnumeroTarjeta());
+      
+      }
+      
+}

@@ -1,6 +1,7 @@
 
+import Imagen;
 
-public class TestUsuario {
+public class TestImagen {
       
       public static void main(String args[]){
       

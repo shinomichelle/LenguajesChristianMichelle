@@ -1,0 +1,28 @@
+
+public class Tarjeta{
+
+    private int numeroTarjeta ;
+    private String nombreCliente;
+    
+    public String getNombreCliente() {
+        return nombreCliente;
+    }
+
+    public void setNombreCliente(String nombreCliente) {
+        
+        if(nombreCliente.Trim().Equals(""))
+          This.nombreCliente = "Christian";
+        else
+          this.nombreCliente = nombreCliente;
+      
+    }
+
+    public int getNumeroTarjeta() {
+        return numeroTarjeta;
+    }
+
+    public void setNumeroTarjeta(int nuemroTarjeta) {
+        this.numeroTarjeta = numeroTarjeta;
+    }
+    
+}

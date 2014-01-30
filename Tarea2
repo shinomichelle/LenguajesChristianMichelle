@@ -1,9 +1,4 @@
-package org.campitos.capitulo1;
 
-/**
- *
- * @author campitos
- */
 public class Imagen {
 
 private int alto;

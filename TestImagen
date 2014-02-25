@@ -1,0 +1,17 @@
+
+import Imagen;
+
+public class TestImagen {
+      
+      public static void main(String args[]){
+      
+      Imagen i=new imagen();
+      i.setAlto(-12);
+      i.setAncho(-5);
+      
+      System.out.println(i.getAlto());
+      System.out.println(i.getAncho());
+      
+      }
+      
+}
